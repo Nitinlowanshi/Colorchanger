@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#main{
+    width: 300px;
+    height: 200px;
+    border-radius: 5px;
+   margin:100px auto;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    background-color: rgba(13, 223, 206, 0.705);
+}
+p{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px;
+    text-align: center;
+}
+#botton{
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    border: 2px solid grey;
+    border-radius: 5px;
+    cursor: pointer;
+}
